@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神人语音</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+        .audio-container audio {
+            width: 100%;
+            height: 40px;
+            margin-top: 10px;
+
+            border-radius: 9999px;
+            outline: none;
+        }
+
+
+        .audio-container audio:focus {
+            box-shadow: none;
+        }
+        
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+
+        .audio-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#4F46E5', /* 靛蓝色作为主色调 */
+                        'secondary': '#6EE7B7', /* 绿色作为点缀色 */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 min-h-screen p-4 sm:p-8">
+
+
+    <div class="max-w-6xl mx-auto">
+        
+
+        <header class="text-center mb-12 py-8 bg-white rounded-3xl shadow-xl">
+            <h1 class="text-5xl sm:text-6xl font-extrabold text-primary mb-2 tracking-loose">
+                神人语音
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                
+            </p>
+        </header>
+
+
+        <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">哦耶~</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/01 oyeah.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">wow~</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/02 wow.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>        
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">曼波（精简）</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/03 manbo.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">曼波（完整）</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/13 manbo.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">哈基米（精简）</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/04 hachimi.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">哈基米（完整）</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/13 hachimi full.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">小马魔性hehehe</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/05 hehehe.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">爱音唐笑（塔菲版）</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/08 laugh.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">爱音唐笑（浴缸版）</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/21 anonhehehhe.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">唐哭</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/09 cry.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">灵感菇</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/07linggangu.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">咕咕嘎嘎</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/07 gugugaga.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">为什么演奏</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/10 soyo.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>            
+
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">saki酱saki酱saki酱</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/09 sakicyan.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">飞鸟山 soyo</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/19 onegai.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">飞鸟山 saki</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/20 anata.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">rikki 哈？</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/18 ha.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">MAN！</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/15 man.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">What can I say</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/16 wcis.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">ciallo</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/14 ciallo.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>              
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">请看我</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/13 0721.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">阿米诺斯</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/13 aminos.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">小孩姐：谢谢</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/11 thanks.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>    
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Hayaku</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/06 hayaku.mp3" type="audio/mp3">
+                        
+                    </audio>
+                </div>
+            </div>           
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">これ</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/これ.wav" type="audio/wav">
+                        
+                    </audio>
+                </div>
+            </div> 
+            
+            <div class="audio-card p-6 bg-white rounded-2xl shadow-xl border border-gray-100 transition duration-300 hover:shadow-2xl hover:border-primary/50">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">あげる</h2>
+                <p class="text-gray-500 mb-4 flex-grow">
+                </p>
+                <div class="audio-container">
+                    <audio controls preload="metadata">
+                        <source src="Recordings/あげる.wav" type="audio/wav">
+                        
+                    </audio>
+                </div>
+            </div>             
+        </main>
+
+      
+        <footer class="mt-16 text-center text-gray-400 text-sm">
+            <p>神人语音</p>
+            <p>都认识的这辈子有了</p>
+        </footer>
+
+    </div>
+</body>
+</html>
